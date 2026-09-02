@@ -1,0 +1,71 @@
+baseURL = "https://yourblog.pages.dev/"
+locale = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "代鑫的博客"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+
+# 主菜单
+[[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 3
+
+[params]
+  env = "production"
+  title = "代鑫的博客"
+  description = "一个关于嵌入式开发、自动化控制与个人思考的技术博客"
+  author = "代鑫"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  ShowLastModified = true
+  DateFormat = "2006-01-02"
+
+  # 首页欢迎区
+  [params.homeInfoParams]
+    Title = "你好，我是代鑫 👋"
+    Content = "齐鲁工业大学自动化专业学生，专注嵌入式全链路开发。这里记录我的技术学习、项目实践与日常思考。"
+
+  # 社交链接
+  [[params.socialIcons]]
+      name = "github"
+      url = "https://github.com/your-github-username"
+    [[params.socialIcons]]
+      name = "email"
+      url = "mailto:your-email@example.com"
+
+  # 归档/搜索页配置
+  [params.assets]
+    disableHLJS = true
+
+  [params.cover]
+    linkFullImages = true
+
+  [params.editPost]
+    URL = ""
+    Text = "编辑"
+    appendFilePath = false
+
+# 输出格式：首页额外生成 RSS 和 JSON（供搜索使用）
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
