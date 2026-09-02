@@ -1,4 +1,4 @@
-baseURL = "https://yourblog.pages.dev/"
+baseURL = "https://dexter-blog.pages.dev/"
 locale = "zh-cn"
 defaultContentLanguage = "zh-cn"
 title = "代鑫的博客"
@@ -30,7 +30,7 @@ pygmentsUseClasses = true
   title = "代鑫的博客"
   description = "一个关于嵌入式开发、自动化控制与个人思考的技术博客"
   author = "代鑫"
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -49,10 +49,10 @@ pygmentsUseClasses = true
   # 社交链接
   [[params.socialIcons]]
       name = "github"
-      url = "https://github.com/your-github-username"
+      url = "https://github.com/OrangeXxin"
     [[params.socialIcons]]
       name = "email"
-      url = "mailto:your-email@example.com"
+      url = "mailto:hi.dexterzhu@gmail.com"
 
   # 归档/搜索页配置
   [params.assets]
