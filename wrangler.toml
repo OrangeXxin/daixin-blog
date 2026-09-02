@@ -1,0 +1,7 @@
+# Cloudflare Pages 项目配置
+# 通过 wrangler CLI 部署时使用：wrangler pages deploy public --project-name <项目名>
+
+name = "daixin-blog"
+
+# 静态站点输出目录
+pages_build_output_dir = "./public"
