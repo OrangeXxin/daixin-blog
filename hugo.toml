@@ -1,7 +1,7 @@
 baseURL = "https://dexter-blog.pages.dev/"
 locale = "zh-cn"
 defaultContentLanguage = "zh-cn"
-title = "代鑫的博客"
+title = "深夜树洞"
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -27,24 +27,24 @@ pygmentsUseClasses = true
 
 [params]
   env = "production"
-  title = "代鑫的博客"
-  description = "一个关于嵌入式开发、自动化控制与个人思考的技术博客"
-  author = "代鑫"
+  title = "深夜树洞"
+  description = "一个21岁年轻人的内心独白——关于生活、情感、思考与成长。深夜台灯下，写给自己看的字。"
+  author = "Dexter"
   defaultTheme = "dark"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
   ShowWordCount = true
-  ShowToc = true
-  ShowLastModified = true
-  DateFormat = "2006-01-02"
+  ShowToc = false
+  ShowLastModified = false
+  DateFormat = "2006年01月02日"
 
   # 首页欢迎区
   [params.homeInfoParams]
-    Title = "你好，我是代鑫 👋"
-    Content = "齐鲁工业大学自动化专业学生，专注嵌入式全链路开发。这里记录我的技术学习、项目实践与日常思考。"
+    Title = "深夜，灯还亮着"
+    Content = "这里是一个树洞。\n\n一个21岁的年轻人，在山东的深夜里，写下那些不好意思对别人说的话。\n\n关于家乡，关于身体，关于爱而不得，关于选择与迷茫，关于玄学与宿命，关于文字本身。\n\n如果你恰好路过，欢迎坐下。不用说话，听就好。"
 
   # 社交链接
   [[params.socialIcons]]
